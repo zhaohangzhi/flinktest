@@ -16,6 +16,7 @@ public class DateSourceTest {
         strings.add(1);
         strings.add(1);
         strings.add(1);
+        strings.add(2);
         DataStreamSource<Integer> integerDataStreamSource = env.fromCollection(strings);
         // 记录debug级别的信息
         LOGGER.debug("This is debug message.");
